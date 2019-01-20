@@ -53,7 +53,7 @@
         .title {
             font-size: 84px;
             font-weight: 200;
-            margin-bottom: 30px;
+            margin: 0 0 30px 0;
         }
 
         .links > a {
