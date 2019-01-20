@@ -6,10 +6,9 @@
 
     <title>Artisan Web</title>
 
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200" rel="stylesheet" type="text/css">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132820171-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -23,8 +22,6 @@
         gtag('config', 'UA-132820171-1');
     </script>
 
-
-    <!-- Styles -->
     <style>
         html, body {
             background-color: #337AB7;
@@ -56,6 +53,7 @@
         .title {
             font-size: 84px;
             font-weight: 200;
+            margin-bottom: 30px;
         }
 
         .links > a {
@@ -67,19 +65,13 @@
             text-decoration: none;
             text-transform: uppercase;
         }
-
-        .m-b-md {
-            margin-bottom: 30px;
-        }
     </style>
 </head>
 <body>
 <div class="flex-center position-ref full-height">
 
     <div class="content">
-        <h1 class="title m-b-md">
-            Artisan Web
-        </h1>
+        <h1 class="title">Artisan Web</h1>
 
         <div class="links">
             <a href="https://github.com/richpeers" title="GitHub" target="_blank">
