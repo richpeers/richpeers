@@ -61,14 +61,6 @@
             text-transform: uppercase;
         }
 
-        /*.links > a.github {*/
-        /*color: #24292E;*/
-        /*}*/
-
-        /*.links > a.linkedin {*/
-        /*color: #ffffff;*/
-        /*}*/
-
         .m-b-md {
             margin-bottom: 30px;
         }
