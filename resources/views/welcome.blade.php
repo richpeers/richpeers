@@ -24,12 +24,20 @@
 
     <style>
         html, body {
-            background-color: #337AB7;
+            background: #1e5799;
             color: #ffffff;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             height: 100vh;
             margin: 0;
+        }
+
+        body {
+            background: #1e5799;
+            background: -moz-linear-gradient(top, #1e5799 10%, #207cca 45%, #409de5 92%);
+            background: -webkit-linear-gradient(top, #1e5799 10%,#207cca 45%,#409de5 92%);
+            background: linear-gradient(to bottom, #1e5799 10%,#207cca 45%,#409de5 92%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#409de5',GradientType=0 );
         }
 
         .full-height {
@@ -97,7 +105,6 @@
             </a>
 
         </div>
-
 
     </div>
 </div>
