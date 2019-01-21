@@ -19,6 +19,7 @@
         html, body {
             height: 100vh;
             margin: 0;
+            overflow: hidden;
         }
 
         body {
