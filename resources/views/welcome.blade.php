@@ -57,9 +57,13 @@
         }
 
         a {
-            color: #ffffff;
+            color: #e6f2ff;
             padding: 0 25px;
             text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffffff;
         }
 
         .stars.large {
