@@ -7,6 +7,8 @@
     <title>Artisan Web</title>
     <meta name="Description" content="Web Development with a focus on quality.">
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
     <style>
         html, body {
             height: 100vh;
@@ -14,17 +16,9 @@
             overflow: hidden;
         }
 
-        @font-face {
-            font-family: 'Jura';
-            font-style: normal;
-            font-weight: 300;
-            font-display: swap;
-            src: local('Jura Light'), local('Jura-Light'), url(https://fonts.gstatic.com/s/jura/v10/z7NUdRfiaC4VVW9rRCti1w.woff) format('woff');
-        }
-
         body {
             color: #e6f2ff;
-            font-family: 'Jura', sans-serif;
+            font-family: 'Roboto', sans-serif;
             font-weight: 300;
             background: rgb(2, 0, 36);
             background: -moz-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(30, 87, 153, 1) 50%, rgba(30, 87, 153, 0.6334908963585435) 100%);
@@ -92,6 +86,7 @@
             font-weight: 300;
             margin: 0 0 30px 0;
             min-height: 115px;
+            letter-spacing: 0.1em;
         }
 
         a {
