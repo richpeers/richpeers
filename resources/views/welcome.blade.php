@@ -17,6 +17,7 @@
         @font-face {
             font-family: 'Roboto';
             font-style: normal;
+            font-display: swap;
             font-weight: 300;
             src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format('woff');
         }
