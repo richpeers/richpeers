@@ -60,10 +60,11 @@
             color: #e6f2ff;
             padding: 0 25px;
             text-decoration: none;
+            opacity: 0.6;
         }
 
         a:hover {
-            color: #ffffff;
+            opacity: 1;
         }
 
         .stars.large {
