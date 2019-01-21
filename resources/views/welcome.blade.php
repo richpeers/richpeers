@@ -7,13 +7,18 @@
     <title>Artisan Web</title>
     <meta name="Description" content="Web Development with a focus on quality.">
 
-
-
     <style>
         html, body {
             height: 100vh;
             margin: 0;
             overflow: hidden;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format('woff');
         }
 
         body {
@@ -244,6 +249,5 @@
 
     </div>
 </div>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 </body>
 </html>
