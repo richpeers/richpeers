@@ -23,7 +23,7 @@
         }
 
         body {
-            color: #ffffff;
+            color: #e6f2ff;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
             background: rgb(2, 0, 36);
@@ -72,8 +72,8 @@
             width: 1px;
             background: transparent;
             box-shadow: 1188px 1283px #fff, 1368px 684px #fff, 1864px 752px #fff, 1043px 894px #fff, 33px 969px #fff, 778px 1545px #fff, 502px 1767px #fff, 1246px 417px #fff, 37px 1189px #fff;
-            -webkit-animation: blink-large 4s infinite;
-            animation: blink-large 4s infinite;
+            -webkit-animation: blink-large 5s infinite;
+            animation: blink-large 5s infinite;
         }
 
         .stars.medium {
@@ -81,8 +81,8 @@
             width: 1px;
             background: transparent;
             box-shadow: 417px 781px #fff, 1451px 1976px #fff, 968px 912px #fff, 1406px 971px #fff, 1200px 1016px #fff, 618px 1276px #fff, 472px 1364px #fff, 760px 822px #fff, 1181px 919px #fff;
-            -webkit-animation: blink-medium 3s infinite;
-            animation: blink-medium 3s infinite;
+            -webkit-animation: blink-medium 4s infinite;
+            animation: blink-medium 4s infinite;
         }
 
         .stars.small {
