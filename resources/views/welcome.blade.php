@@ -63,7 +63,6 @@
             }
         }
 
-        /* Firefox < 16 */
         @-moz-keyframes fadein {
             from {
                 opacity: 0;
@@ -73,7 +72,6 @@
             }
         }
 
-        /* Safari, Chrome and Opera > 12.1 */
         @-webkit-keyframes fadein {
             from {
                 opacity: 0;
@@ -83,7 +81,6 @@
             }
         }
 
-        /* Opera < 12.1 */
         @-o-keyframes fadein {
 
         }
