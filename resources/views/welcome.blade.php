@@ -22,14 +22,14 @@
         }
 
         body {
-            background: #1e5799;
             color: #ffffff;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
-            background: -moz-linear-gradient(top, #1e5799 10%, #207cca 45%, #409de5 92%);
-            background: -webkit-linear-gradient(top, #1e5799 10%, #207cca 45%, #409de5 92%);
-            background: linear-gradient(to bottom, #1e5799 10%, #207cca 45%, #409de5 92%);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#409de5', GradientType=0);
+            background: rgb(2,0,36);
+            background: -moz-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(30,87,153,1) 50%, rgba(30,87,153,0.6334908963585435) 100%);
+            background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(30,87,153,1) 50%, rgba(30,87,153,0.6334908963585435) 100%);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(30,87,153,1) 50%, rgba(30,87,153,0.6334908963585435) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#1e5799",GradientType=1);
         }
 
         .wrapper {
@@ -42,6 +42,11 @@
 
         .content {
             text-align: center;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
 
         h1 {
