@@ -12,7 +12,7 @@
             font-family: 'Nunito';
             font-style: normal;
             font-weight: 200;
-            font-display: swap;
+            font-display: fallback;
             src: local('Nunito ExtraLight'), local('Nunito-ExtraLight'), url(https://fonts.gstatic.com/s/nunito/v9/XRXW3I6Li01BKofA-seUYevO.woff) format('woff');
         }
 
@@ -48,6 +48,44 @@
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
+            -webkit-animation: fadein 3s;
+            -moz-animation: fadein 3;
+            -o-animation: fadein 3s;
+            animation: fadein 3s;
+        }
+
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Firefox < 16 */
+        @-moz-keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Safari, Chrome and Opera > 12.1 */
+        @-webkit-keyframes fadein {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Opera < 12.1 */
+        @-o-keyframes fadein {
+
         }
 
         h1 {
