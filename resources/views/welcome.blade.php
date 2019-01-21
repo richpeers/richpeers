@@ -18,15 +18,15 @@
         }
 
         html, body {
-            background: #1e5799;
-            color: #ffffff;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
             height: 100vh;
             margin: 0;
         }
 
         body {
+            background: #1e5799;
+            color: #ffffff;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 200;
             background: -moz-linear-gradient(top, #1e5799 10%, #207cca 45%, #409de5 92%);
             background: -webkit-linear-gradient(top, #1e5799 10%, #207cca 45%, #409de5 92%);
             background: linear-gradient(to bottom, #1e5799 10%, #207cca 45%, #409de5 92%);
@@ -51,14 +51,10 @@
             margin: 0 0 30px 0;
         }
 
-        .links > a {
+        a {
             color: #ffffff;
             padding: 0 25px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
             text-decoration: none;
-            text-transform: uppercase;
         }
     </style>
 </head>
