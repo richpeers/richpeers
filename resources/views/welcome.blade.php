@@ -86,10 +86,10 @@
             font-size: 84px;
             font-weight: 200;
             margin: 0 0 30px 0;
-            -webkit-animation: fadein 3s;
-            -moz-animation: fadein 3;
-            -o-animation: fadein 3s;
-            animation: fadein 3s;
+            -webkit-animation: fadein 1.5s;
+            -moz-animation: fadein 1.5;
+            -o-animation: fadein 1.5s;
+            animation: fadein 1.5s;
         }
 
         a {
