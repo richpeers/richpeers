@@ -7,8 +7,6 @@
     <title>Artisan Web</title>
     <meta name="Description" content="Web Development with a focus on quality.">
 
-    <link href="https://fonts.googleapis.com/css?family=Jura:300" rel="stylesheet">
-
     <style>
         html, body {
             height: 100vh;
