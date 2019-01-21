@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Artisan Web</title>
-    <meta name="Description" content="Web Development with a focus on quoality.">
+    <meta name="Description" content="Web Development with a focus on quality.">
 
     <style>
         @font-face {
