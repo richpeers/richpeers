@@ -7,7 +7,7 @@
     <title>Artisan Web</title>
     <meta name="Description" content="Web Development with a focus on quality.">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
 
     <style>
         html, body {
@@ -244,6 +244,6 @@
 
     </div>
 </div>
-
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
 </body>
 </html>
