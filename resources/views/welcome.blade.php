@@ -83,7 +83,7 @@
 
         h1 {
             font-size: 84px;
-            font-weight: 200;
+            font-weight: 300;
             margin: 0 0 30px 0;
             min-height: 115px;
         }
