@@ -7,15 +7,9 @@
     <title>Artisan Web</title>
     <meta name="Description" content="Web Development with a focus on quality.">
 
-    <style>
-        @font-face {
-            font-family: 'Nunito';
-            font-style: normal;
-            font-weight: 200;
-            font-display: fallback;
-            src: local('Nunito ExtraLight'), local('Nunito-ExtraLight'), url(https://fonts.gstatic.com/s/nunito/v9/XRXW3I6Li01BKofA-seUYevO.woff) format('woff');
-        }
+    <link href="https://fonts.googleapis.com/css?family=Jura:300" rel="stylesheet">
 
+    <style>
         html, body {
             height: 100vh;
             margin: 0;
@@ -24,8 +18,8 @@
 
         body {
             color: #e6f2ff;
-            font-family: 'Nunito', sans-serif;
-            font-weight: 200;
+            font-family: 'Jura', sans-serif;
+            font-weight: 300;
             background: rgb(2, 0, 36);
             background: -moz-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(30, 87, 153, 1) 50%, rgba(30, 87, 153, 0.6334908963585435) 100%);
             background: -webkit-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(30, 87, 153, 1) 50%, rgba(30, 87, 153, 0.6334908963585435) 100%);
