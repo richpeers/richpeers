@@ -33,7 +33,7 @@
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#409de5', GradientType=0);
         }
 
-        .wrap {
+        .wrapper {
             height: 100vh;
             align-items: center;
             display: flex;
@@ -45,7 +45,7 @@
             text-align: center;
         }
 
-        .title {
+        h1 {
             font-size: 84px;
             font-weight: 200;
             margin: 0 0 30px 0;
@@ -59,12 +59,12 @@
     </style>
 </head>
 <body>
-<div class="wrap">
+<div class="wrapper">
     <div class="content">
 
-        <h1 class="title">Artisan Web</h1>
+        <h1>Artisan Web</h1>
 
-        <div class="links">
+        <div>
             <a href="https://github.com/richpeers" title="GitHub" target="_blank" rel="noopener">
                 <svg viewBox="0 0 496 512" width="34.125" height="39">
                     <path fill="currentColor"
