@@ -7,7 +7,6 @@
     <title>Artisan Web</title>
 
     <style>
-        /* latin */
         @font-face {
             font-family: 'Nunito';
             font-style: normal;
