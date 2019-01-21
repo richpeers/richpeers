@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Artisan Web</title>
-    <meta name="Description" content="PHP Developer. Laravel expert with good OOP knowledge. Full stack includes JavaScript, Vue.js and AWS with a strong IT systems background. Always learning.">
+    <meta name="Description" content="Web Development with a focus on quoality.">
 
     <style>
         @font-face {
@@ -48,15 +48,12 @@
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
-            -webkit-animation: fadein 3s;
-            -moz-animation: fadein 3;
-            -o-animation: fadein 3s;
-            animation: fadein 3s;
+
         }
 
         @keyframes fadein {
             from {
-                opacity: 0;
+                opacity: 0.6;
             }
             to {
                 opacity: 1;
@@ -65,7 +62,7 @@
 
         @-moz-keyframes fadein {
             from {
-                opacity: 0;
+                opacity: 0.6;
             }
             to {
                 opacity: 1;
@@ -74,7 +71,7 @@
 
         @-webkit-keyframes fadein {
             from {
-                opacity: 0;
+                opacity: 0.6;
             }
             to {
                 opacity: 1;
@@ -89,6 +86,10 @@
             font-size: 84px;
             font-weight: 200;
             margin: 0 0 30px 0;
+            -webkit-animation: fadein 3s;
+            -moz-animation: fadein 3;
+            -o-animation: fadein 3s;
+            animation: fadein 3s;
         }
 
         a {
