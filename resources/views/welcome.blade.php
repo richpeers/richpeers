@@ -43,10 +43,10 @@
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
-            -webkit-animation: fadein 1.5s;
-            -moz-animation: fadein 1.5;
-            -o-animation: fadein 1.5s;
-            animation: fadein 1.5s;
+            -webkit-animation: fadein 3s;
+            -moz-animation: fadein 3s;
+            -o-animation: fadein 3s;
+            animation: fadein 3s;
 
         }
 
