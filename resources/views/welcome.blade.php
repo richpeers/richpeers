@@ -16,6 +16,14 @@
             overflow: hidden;
         }
 
+        @font-face {
+            font-family: 'Jura';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('Jura Light'), local('Jura-Light'), url(https://fonts.gstatic.com/s/jura/v10/z7NUdRfiaC4VVW9rRCti1w.woff) format('woff');
+        }
+
         body {
             color: #e6f2ff;
             font-family: 'Jura', sans-serif;
