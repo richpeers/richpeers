@@ -96,10 +96,12 @@
 
         a {
             color: #e6f2ff;
-            padding: 0 25px;
+            padding: 6px 6px 0 6px;
+            margin: 0 25px;
             text-decoration: none;
             opacity: 0.6;
-            height: 39px;
+            height: 45px;
+            display: inline-block;
         }
 
         a:hover {
