@@ -39,6 +39,7 @@
             display: flex;
             justify-content: center;
             position: relative;
+            min-height: 190px;
         }
 
         .content {
@@ -48,12 +49,16 @@
             -moz-user-select: none;
             -ms-user-select: none;
             user-select: none;
+            -webkit-animation: fadein 1.5s;
+            -moz-animation: fadein 1.5;
+            -o-animation: fadein 1.5s;
+            animation: fadein 1.5s;
 
         }
 
         @keyframes fadein {
             from {
-                opacity: 0.6;
+                opacity: 0;
             }
             to {
                 opacity: 1;
@@ -62,7 +67,7 @@
 
         @-moz-keyframes fadein {
             from {
-                opacity: 0.6;
+                opacity: 0;
             }
             to {
                 opacity: 1;
@@ -71,7 +76,7 @@
 
         @-webkit-keyframes fadein {
             from {
-                opacity: 0.6;
+                opacity: 0;
             }
             to {
                 opacity: 1;
@@ -86,10 +91,7 @@
             font-size: 84px;
             font-weight: 200;
             margin: 0 0 30px 0;
-            -webkit-animation: fadein 1.5s;
-            -moz-animation: fadein 1.5;
-            -o-animation: fadein 1.5s;
-            animation: fadein 1.5s;
+            min-height: 115px;
         }
 
         a {
@@ -97,6 +99,7 @@
             padding: 0 25px;
             text-decoration: none;
             opacity: 0.6;
+            height: 39px;
         }
 
         a:hover {
