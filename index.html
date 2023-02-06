@@ -3,12 +3,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Artisan Web</title>
+    <title>Rich Peers</title>
     <meta name="Description" content="Web Development with a focus on quality.">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <style>
         html, body {
             height: 100vh;
             margin: 0;
+            padding: 0;
             overflow: hidden;
         }
 
@@ -205,8 +210,15 @@
                 box-shadow: 1489px 666px #fff, 34px 459px #fff, 1830px 101px #fff, 145px 1156px #fff, 1433px 263px #fff, 1294px 184px #fff, 894px 104px #fff, 507px 1015px #fff, 1778px 873px #fff;
             }
         }
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
 
-
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
     </style>
 </head>
 <body>
@@ -218,7 +230,7 @@
 <div class="wrapper">
     <div class="content">
 
-        <h1>Artisan Web</h1>
+        <h1>~/RichPeers><span class="blink">_</span></h1>
 
         <div>
             <a href="https://github.com/richpeers" title="GitHub" target="_blank" rel="noopener">
